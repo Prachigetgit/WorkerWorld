@@ -4,7 +4,7 @@ import slugify from 'slugify';
 import fs from 'fs';
 import braintree from 'braintree';
 import  dotenv from "dotenv";
-import OrderModel from '../models/OrderModel.js';
+import OrderModel from '../models/orderModel.js';
 
 dotenv.config();
 
